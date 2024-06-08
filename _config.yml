@@ -1,1 +1,26 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: halos portfolio
+description: CIT minor portfolio
+baseurl: "" # the subpath of your site, e.g. /blog/ or empty for root
+
+# Build settings
+theme: jekyll-theme-minimal # the theme you are using
+plugins:
+  - jekyll-feed # plugin for generating an Atom feed of your posts
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  highlighter_opts:
+    line_numbers: true
+
+# # Permalinks
+# permalink: /:categories/:year/:month/:day/:title/
+
+# GitHub Pages settings
+remote_theme: jekyll/minima # the theme hosted on GitHub
