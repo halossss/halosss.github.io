@@ -19,8 +19,4 @@ kramdown:
   highlighter_opts:
     line_numbers: true
 
-# # Permalinks
-# permalink: /:categories/:year/:month/:day/:title/
 
-# GitHub Pages settings
-remote_theme: jekyll/minima # the theme hosted on GitHub
